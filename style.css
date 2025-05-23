@@ -1,0 +1,39 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #grille {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            grid-gap: 10px;
+            margin: 30px auto;
+            max-width: 430px;
+            justify-content: center;
+        }
+
+        .carte {
+            height: 100px;
+            background-color: #2c3e50;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0;
+            /* Cacher le symbole /
+            color: transparent;
+            / Rendre le texte invisible */
+            transition: background-color 0.3s ease;
+        }
+
+        .carte:hover {
+            background-color: #34495e;
+        }
