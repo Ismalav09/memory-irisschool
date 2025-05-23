@@ -232,3 +232,4 @@ function initGame() {
             document.getElementById('moyen').addEventListener('click', () => changerNiveau('moyen'));
             document.getElementById('difficile').addEventListener('click', () => changerNiveau('difficile'));
         });
+        //cc
